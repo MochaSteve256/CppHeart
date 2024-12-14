@@ -6,7 +6,7 @@ int main()
     {
         for (float x = -9; x < 9; x += .25f)
         {
-            if (pow(x, 2) + pow(y, 2) + x*6 < 0)
+            if (pow(x, 2) + pow(y, 2) - 40 < 0)
             {
                 std::cout << "#";
             }
@@ -17,7 +17,7 @@ int main()
         }
         std::cout << "\n";
     }
-    
-    
+
+
     return 0;
 }
